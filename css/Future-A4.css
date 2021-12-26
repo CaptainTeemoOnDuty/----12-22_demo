@@ -98,7 +98,7 @@ ul.drop-down-menu {
     display: flex;
     align-items: center;
     /* font-family: 'Open Sans', Arial, sans-serif; */
-    font-size: 13px;
+    font-size: 16px;
     padding-right: 30px;
 }
 ul.drop-down-menu li {
@@ -167,7 +167,7 @@ ul.drop-down-menu ul li:last-child {
     text-align: center;
 }
 ul.language a {
-    font-size: 14px;
+    font-size: 16px;
     color: #2196f3;
 }
 .languageli:hover .language {
@@ -298,6 +298,7 @@ footer p {
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 1.1em;
+    font-family: 'cwTeXYen', sans-serif;
 }
 footer .wave {
     position: absolute;
