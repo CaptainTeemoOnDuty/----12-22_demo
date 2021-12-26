@@ -1,0 +1,15 @@
+.about{
+    margin-top: 70px;
+    background-image: url(../picture/buy.jpg);
+    background-attachment: fixed;
+}
+.about-title{
+    font-size: 36px;
+    color: #fff;
+    line-height: 1.8;
+}
+.about-txt{
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.8;
+}
