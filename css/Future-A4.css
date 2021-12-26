@@ -25,6 +25,7 @@ body{
 }
 .time p {
     width: 50%;
+    font-family: 'cwTeXYen', sans-serif;
 }
 .buy {
     width: 50%;
@@ -44,6 +45,7 @@ body{
     text-decoration: none;
     color: #eee;
     margin-left: 250px;
+    font-family: 'cwTeXYen', sans-serif;
 }
 .buy a:hover {
     color: #f3c321;
@@ -72,7 +74,7 @@ ul {
     font-family: 'cwTeXYen', sans-serif;
     color: #fff;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 300;
     padding: 20px;
     margin-left: 30px;
@@ -284,6 +286,8 @@ footer .botMenu li a {
     display: inline-block;
     text-decoration: none;
     opacity: 0.75;
+    font-family: 'cwTeXYen', sans-serif;
+    font-size: 20px;
 }
 footer .botMenu li a:hover {
     opacity: 1;
@@ -456,6 +460,7 @@ footer .wave#wave4 {
     font-size: 36px;
     text-align: center;
     color: #fff;
+    font-family: 'cwTeXYen', sans-serif;
 }
 .p-home-body-mid-content {
 	display: flex;
@@ -471,21 +476,25 @@ footer .wave#wave4 {
 }
 .p-home-body-mid-head__ja {
 	color: #fff;
-	font-size: 24px;
+	font-size: 26px;
 	line-height: 1.5;
-	font-weight: 600;
+	font-weight: 700;
+    font-family: 'cwTeXYen', sans-serif;
 }
 .p-home-body-mid-head__en {
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 22px;
+	font-weight: 500;
 	line-height: 1.5;
 	margin-top: 10px;
 	color: #2196f3;
+    font-family: 'cwTeXYen', sans-serif;
 }
 .p-home-body-mid-body {
 	color: #fff;
-	font-weight: bold;
+	font-weight: 300;
 	margin-top: 20px;
+    font-size: 18px;
+    font-family: 'cwTeXYen', sans-serif;
 }
 .p-home-body-mid-more {
 	margin-top: 60px;
@@ -493,6 +502,7 @@ footer .wave#wave4 {
 }
 .p-home-body-mid-more .c-button-round-white + .c-button-round-white {
     margin-top: 20px;
+    font-family: 'cwTeXYen', sans-serif;
 }
 .p-home-body-mid-image {
 	width: 500px;
