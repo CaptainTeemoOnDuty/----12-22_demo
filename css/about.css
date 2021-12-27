@@ -19,8 +19,8 @@
     
     width: 100%;
 }
-.space{
-    background-image: url(../picture/buy.jpg);
+.about-txt .space{
+    background-image: url(../picture/dolphin.jpg);
     background-position: right;
     background-size: 50%;
     background-repeat: no-repeat;
@@ -29,6 +29,10 @@
     height: 300px;
     box-sizing: border-box;
     margin: 20px;
+}
+.about-txt:nth-child(odd) .space{
+    background-image: url(../picture/turtle.jpg);
+    background-position: left;
 }
 .txt{
     background-color: #fff;
