@@ -6,6 +6,7 @@
 .title h2{
     font-size: 48px;
     margin: auto;
+    font-family:'Roboto Condensed', 'cwTeXYen', sans-serif;
 }
 .row div img{
     width: 100%;
@@ -56,10 +57,10 @@
 
 }
 .announcement .title{
-    color: #1152A0;
     letter-spacing: 1.5px;
     margin: 55px 0px 40px 0px;
-    font-size: 25px;
+    font-size: 26px;
+    line-height: 1.5;
 }
 .announcement .txt button{
     font-size: 16px;

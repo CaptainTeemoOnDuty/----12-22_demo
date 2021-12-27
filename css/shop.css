@@ -9,7 +9,7 @@ body{
     font-family: 'cwTeXYen', sans-serif;
 }
 .row{
-    align-items: flex-end
+    align-items: flex-end;
 }
 .container h2{
     text-align: center;
@@ -36,4 +36,5 @@ body{
 }
 .shadow{
     box-shadow: 0 0 1px #aaa;
+    margin: 10px 0;
 }
