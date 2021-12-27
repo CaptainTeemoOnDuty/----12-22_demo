@@ -1,15 +1,27 @@
 .about{
     margin-top: 70px;
-    background-image: url(../picture/buy.jpg);
-    background-attachment: fixed;
+    font-family:'Roboto Condensed', 'cwTeXYen', sans-serif;
 }
 .about-title{
     font-size: 36px;
-    color: #fff;
+    color: #000;
     line-height: 1.8;
+    text-align: center;
 }
 .about-txt{
+    display: flex;
     font-size: 22px;
-    color: #fff;
+    color: #000;
     line-height: 1.8;
+    width: 100%;
+    align-items: flex-end;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.space{
+    background: url(../picture/buy.jpg) no-repeat;
+    background-attachment: fixed;
+}
+.about-txt:nth-child(odd){
+    flex-direction: column-reverse;
 }
