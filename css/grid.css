@@ -55,7 +55,7 @@
 [class*=col-]{
     padding: 0 10px;
     box-sizing: border-box;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 /* 手橫 */
     .col-1{ width: 8.333333%; }
