@@ -149,6 +149,7 @@ ul.drop-down-menu ul li:last-child {
     background-position: top 10px left 0;
     position: relative;
     min-width: 100px;
+    right: 0;
     padding: 10px 0px 10px 26px;
     color: #fff;
     font-family:'Noto Sans TC', sans-serif;
