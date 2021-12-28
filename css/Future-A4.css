@@ -68,6 +68,9 @@ ul {
     background-color: #09fe;
     padding: 5px;
 }
+.topNav:hover {
+    background-color: #09f;
+}
 .topNav h1{
     font-family:'Noto Sans TC', sans-serif;
     color: #fff;
