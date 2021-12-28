@@ -39,6 +39,9 @@
     box-sizing: border-box;
     /* background: url(../picture/buy.jpg) no-repeat; */
 }
+.txt h3{
+    font-size: 28px;
+}
 .about-txt:nth-child(odd){
     flex-direction: row-reverse;
 }
