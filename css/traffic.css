@@ -1,3 +1,14 @@
+body{
+    background: #E9F2F9;
+    background-image: url(pic/bg_wave_move.png);
+}
+h2{
+    margin-top: 80px;
+    font-family:'Noto Sans TC', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
 .map{
     display: flex;
     margin: 100px auto;
@@ -12,4 +23,5 @@ address>span{
 address{
     font-size: 20px;
     line-height: 1.5;
+    font-family:'Noto Sans TC', sans-serif;
 }

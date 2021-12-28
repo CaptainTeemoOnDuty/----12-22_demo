@@ -1,3 +1,46 @@
-.price{
-    margin-top: 600px;
+body{
+    background: #E9F2F9;
+    background-image: url(pic/bg_wave_move.png);
+}
+h2{
+    margin: 75px auto;
+    font-size: 36px;
+    padding: 30px;
+    text-align: center;
+    font-family:'Noto Sans TC', sans-serif;
+}
+.future-A-pp img{
+    width: 100%;
+}
+.price table{
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: #3586ff;
+    font-family:'Noto Sans TC', sans-serif;
+}
+.price tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}   
+.price tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.price th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+.price td {
+    display: table-cell;
+    vertical-align: inherit;
+    height: 70px;
 }

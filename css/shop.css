@@ -2,14 +2,12 @@ body{
     background: #66d1fc;
 }
 .container{
-    background-color: #fff;
-    margin-top: 80px;
+    margin-top: 75px;
     padding-top: 30px;
     margin-bottom: 20px;
-    font-family: 'cwTeXYen', sans-serif;
-}
-.row{
-    align-items: flex-end;
+    font-family:'Noto Sans TC', sans-serif;
+    background: #E9F2F9;
+    background-image: url(pic/bg_wave_move.png);
 }
 .container h2{
     text-align: center;
@@ -33,8 +31,8 @@ body{
     justify-content: space-between;
     flex-direction: column;
     justify-content: flex-end;
+    padding-bottom: 10px;
 }
 .shadow{
-    box-shadow: 0 0 1px #aaa;
     margin: 10px 0;
 }

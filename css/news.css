@@ -1,47 +1,28 @@
+body{
+    background: #E9F2F9;
+}
 .title{
-    margin-top: 72px;
     display: flex;
-    padding: 20px 0;
 }
 .title h2{
-    font-size: 48px;
+    font-size: 36px;
     margin: auto;
-    font-family:'Roboto Condensed', 'cwTeXYen', sans-serif;
+    font-family:'Noto Sans TC', sans-serif;
 }
 .row div img{
     width: 100%;
 }
-.youtube{
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    margin-bottom: 100px;
-}
-.youtube::before{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 0; /*(重設高度,避免繼承父層的高度)*/
-    padding-bottom: 56.27615063%;
-    background-color: #aff;
-}
-.youtube iframe{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
 .announcement{
     width: 100%;
-    background: url("../picture/Future-A-bg-3.jpg") no-repeat;
+    background: url(pic/bg_wave_move.png) repeat;
     background-size: contain;
-    background-position: bottom;
-    padding-top: 20px;
+    background-position: center;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    box-sizing: border-box;
 }
 .announcement::before{
     content: '';
@@ -87,7 +68,8 @@
     flex-direction: column;
     margin: 0 20px;
     background-color: rgba(255, 255, 255, .5);
-
+    border-radius: 10px;
+    overflow: hidden;
 }
 .announcement .content .item img{
     width: 220px;
@@ -100,7 +82,7 @@
 }
 .announcement .content .item h4{
     padding: 5px 5px;
-    background-color: rgba(255, 255, 255 .5);
+    background-color: rgba(255, 255, 255, .5);
 
 }
 .announcement .more{

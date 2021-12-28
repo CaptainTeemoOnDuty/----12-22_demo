@@ -1,12 +1,13 @@
 .about{
     margin-top: 70px;
-    font-family:'Roboto Condensed', 'cwTeXYen', sans-serif;
+    font-family:'Noto Sans TC', sans-serif;
 }
 .about-title{
     font-size: 36px;
     color: #000;
     line-height: 1.8;
     text-align: center;
+    padding: 20px;
 }
 .about-txt{
     display: flex;
@@ -14,13 +15,11 @@
     color: #000;
     line-height: 1.8;
     align-items: center;
-    
     box-sizing: border-box;
-    
     width: 100%;
 }
 .about-txt .space{
-    background-image: url(../picture/dolphin.jpg);
+    background-image: url(../picture/turtle.jpg);
     background-position: right;
     background-size: 50%;
     background-repeat: no-repeat;
@@ -31,7 +30,7 @@
     margin: 20px;
 }
 .about-txt:nth-child(odd) .space{
-    background-image: url(../picture/turtle.jpg);
+    background-image: url(../picture/dolphin.jpg);
     background-position: left;
 }
 .txt{
