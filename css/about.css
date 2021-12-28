@@ -1,6 +1,7 @@
 .about{
     margin-top: 70px;
     font-family:'Noto Sans TC', sans-serif;
+    
 }
 .about-title{
     font-size: 36px;
@@ -12,7 +13,7 @@
 .about-txt{
     display: flex;
     font-size: 22px;
-    color: #000;
+    color: #000680;
     line-height: 1.8;
     align-items: center;
     box-sizing: border-box;
